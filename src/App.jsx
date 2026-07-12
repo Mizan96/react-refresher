@@ -1,10 +1,16 @@
+import Header from "./components/header.jsx"
+import Main from "./components/main.jsx"
+import Footer from "./components/footer.jsx"
+import Card2 from "./components/card.jsx"
 
 const App = () => {
   return (
-    <div id="parent">
-      <h1 id="child1">App</h1>
-      <h2 id="child2">HTML</h2>
-    </div>
+    <>
+      <Header /> 
+      <Main />
+      <Footer />
+      <Card2 />
+    </>
   )
 }
 
