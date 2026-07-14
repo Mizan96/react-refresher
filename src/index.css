@@ -1,0 +1,11 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.card-image {
+    height: 200px;
+}
+
+.card-container{
+    padding: 5px;
+}
