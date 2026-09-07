@@ -21,7 +21,8 @@ const RigthCardContent = (props) => {
             {props.tag}
           </button>
           <button
-            className="bg-blue-600 text-white 
+          style={{backgroundColor:props.color}}
+            className="text-white 
             font-semibold px-3 py-2 rounded-full"
           >
             <i className="ri-arrow-right-line"></i>
