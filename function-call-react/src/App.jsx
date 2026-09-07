@@ -15,7 +15,7 @@ const App = () => {
       <input
         type="text"
         placeholder="Type your name"
-        onChange={(x) => {
+        onKe={(x) => {
           document.getElementsByTagName('h1')[0].innerHTML = x.target.value
           
           console.log();
