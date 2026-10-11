@@ -14,7 +14,7 @@ const SearchBar = () => {
           dispatch(setQuery(text));
           setText("");
         }}
-        className="flex p-10 gap-5 bg-gray-900"
+        className="flex p-10 gap-5 bg-(--c2)"
       >
         <input
           required
